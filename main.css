@@ -1,0 +1,44 @@
+map {
+  display: inline;
+}
+
+img {
+  width: 750px;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+  margin:0;
+  padding: 20px;
+  font-size: 45px;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid ol{
+  padding-left:33px;
+}
+#grid #article{
+  padding:25px;
+  margin: 0;
+}
+
+.wrap {
+  margin: auto;
+  width: 800px;
+}
+
+ul{
+  border-right: 1px solid black;
+  width: 100px;
+  padding: 20px;
+  margin:0;
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
